@@ -76,6 +76,8 @@ return [
         ]
     ],
 
+    'saml_proxy_vars' => false,
+
     'hide_real_idps' => false,
     'expose_sp_metadata' => true,
     'expose_idps_json' => true,

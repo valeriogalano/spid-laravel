@@ -63,7 +63,6 @@ return [
     'rejectUnsolicitedResponsesWithInResponseTo' => true,
   ],
   'strict' => true,
-    'saml_proxy_vars' => true,
 
   // Organization information template, the info in en_US lang is recomended, add more if required
   'organization' => [
