@@ -37,7 +37,7 @@ class ServiceProvider extends LaravelServiceProvider
 
         $router->aliasMiddleware('spid.auth', \Italia\SPIDAuth\Middleware::class);
 
-        $proxyVars = config('spid-saml.proxyVars');
+        $proxyVars = config('spid-auth.saml_proxy_vars');
         if ($proxyVars) {
             SAMLUtils::setProxyVars($proxyVars);
         }
