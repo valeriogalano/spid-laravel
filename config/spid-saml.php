@@ -63,6 +63,7 @@ return [
     'rejectUnsolicitedResponsesWithInResponseTo' => true,
   ],
   'strict' => true,
+    'proxyVars' => true,
 
   // Organization information template, the info in en_US lang is recomended, add more if required
   'organization' => [
