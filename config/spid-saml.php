@@ -59,7 +59,7 @@ return [
     'digestAlgorithm' => 'http://www.w3.org/2001/04/xmlenc#sha256',
     'requestedAuthnContext' => [],
     'requestedAuthnContextComparison' => 'minimum',
-    'destinationStrictlyMatches' => true,
+    'destinationStrictlyMatches' => false,
     'rejectUnsolicitedResponsesWithInResponseTo' => true,
   ],
   'strict' => true,
